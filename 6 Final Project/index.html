@@ -11,7 +11,6 @@
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -21,8 +20,6 @@
           </button>
           <a class="navbar-brand" href="#home">Brand</a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="#page2">Page 2</a></li>
@@ -36,63 +33,88 @@
       </div>
     </nav>
     <header id="home">
-      <h1>Insert the name of your website</h1>
-      <p>Write your first paragraph about your website.</p>
-      <p>Write your second paragraph about your website.</p>
-      <button>Button 1</button>
-      <button>Button 2</button>
+      <div class="container-fluid">
+        <div class="page-header"><h1>Insert the name of your website</h1></div>
+        <p>Write your first paragraph about your website.</p>
+        <p>Write your second paragraph about your website.</p>
+        <button>Button 1</button>
+        <button>Button 2</button>
+      </div>
     </header>
     <section id="page2">
-      <h1>Page 2 Title</h1>
-      <div>
-        <div>
-          <img src="http://placehold.it/320x320">
-          <h3>Image One</h3>
-          <p>Describe it in a lengthy paragraph here.</p>
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1>Page 2 Title</h1>
         </div>
-        <div>
-          <img src="http://placehold.it/320x320">
-          <h3>Image Two</h3>
-          <p>Describe it in a lengthy paragraph here.</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="http://placehold.it/320x320">
+            <h3>Image One</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="http://placehold.it/320x320">
+            <h3>Image Two</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
         </div>
-        <div>
-          <img src="http://placehold.it/320x320">
-          <h3>Image Three</h3>
-          <p>Describe it in a lengthy paragraph here.</p>
-        </div>
-        <div>
-          <img src="http://placehold.it/320x320">
-          <h3>Image Four</h3>
-          <p>Describe it in a lengthy paragraph here.</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="http://placehold.it/320x320">
+            <h3>Image Three</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="http://placehold.it/320x320">
+            <h3>Image Four</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
         </div>
       </div>
     </section>
     <section id="page3">
-      <h1>Page 3: This One Has Video</h1>
-      <div>
-        <iframe width="640" height="390" src="https://www.youtube.com/embed/qdbrIrFxas0" frameborder="0" allowfullscreen></iframe>
-        <p>Describe the video here. What's it about?</p>
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1>Page 3: This One Has Video</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-offset-1 col-sm-10">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qdbrIrFxas0"></iframe>
+            </div>
+            <p>Describe the video here. What's it about?</p>
+          </div>
+        </div>
       </div>
     </section>
     <section id="page4">
-      <h1>Call to action: Get more information!</h1>
-      <form>
-        <legend>My Contact Form</legend>
-        <label for="formname">Name:</label><input type="text" id="formname"><br>
-        <label for="formemail">Email:</label><input type="email" id="formemail"><br>
-        <label for="formselect">Pick a number:</label><select id="formselect"><br>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-        </select><br>
-        <label for="formyes">Yes</label><input type="radio" name="yesorno" id="formyes" value="yes">
-        <label for="formno">No</label><input type="radio" name="yesorno" id="formno" value="no"><br>
-        <label for="formtext">Anything else?</label><br><textarea></textarea><br>
-        <button type="reset">Reset Form</button>
-        <button type="submit">Submit Form</button>
-      </form>
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1>Call to action: Get more information!</h1>
+        </div>
+        <form>
+          <legend>My Contact Form</legend>
+          <label for="formname">Name:</label><input type="text" id="formname"><br>
+          <label for="formemail">Email:</label><input type="email" id="formemail"><br>
+          <label for="formselect">Pick a number:</label><select id="formselect"><br>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select><br>
+          <label for="formyes">Yes</label><input type="radio" name="yesorno" id="formyes" value="yes">
+          <label for="formno">No</label><input type="radio" name="yesorno" id="formno" value="no"><br>
+          <label for="formtext">Anything else?</label><br><textarea></textarea><br>
+          <button type="reset">Reset Form</button>
+          <button type="submit">Submit Form</button>
+        </form>
+      </div>
     </section>
+    <footer class="footer">
+      <div class="container-fluid">
+        <p>&copy; 2015 Your Name</p>
+      </div>
+    </footer>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
