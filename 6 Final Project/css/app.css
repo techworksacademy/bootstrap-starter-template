@@ -13,3 +13,34 @@ header {
   min-height: 100%;
   padding: 250px 0px 250px 0px;
 }
+
+#page2 {
+  text-align: center;
+  background: url(http://merrittlawrenson.com/img/16.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#page3 {
+  text-align: center;
+  color: white;
+  background: url(http://merrittlawrenson.com/img/3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#page4 {
+  background: url(http://merrittlawrenson.com/img/15.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#page4 h1 {
+  text-align: center;
+}
