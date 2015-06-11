@@ -18,13 +18,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#home">Brand</a>
+          <a class="navbar-brand" href="#home">My Awesome Website</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#page2">Page 2</a></li>
-            <li><a href="#page3">Page 3</a></li>
-            <li><a href="#page4">Page 4</a></li>
+            <li><a href="#page2">Gallery</a></li>
+            <li><a href="#page3">Video</a></li>
+            <li><a href="#page4">Contact</a></li>
           </ul>
           <form class="navbar-form navbar-right">
             <button type="submit" class="btn btn-default">Call to ACTION</button>
@@ -32,49 +32,47 @@
         </div>
       </div>
     </nav>
-    <header id="home">
+    <header class="text-center" id="home">
       <div class="container-fluid">
         <div class="page-header"><h1>Insert the name of your website</h1></div>
         <p>Write your first paragraph about your website.</p>
         <p>Write your second paragraph about your website.</p>
-        <button>Button 1</button>
-        <button>Button 2</button>
+        <button class="btn btn-default">Button 1</button>
+        <button class="btn btn-default">Button 2</button>
       </div>
     </header>
-    <hr>
-    <section id="page2">
+    <section class="text-center" id="page2">
       <div class="container-fluid">
         <div class="page-header">
           <h1>Page 2 Title</h1>
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <img src="http://placehold.it/320x320">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
             <h3>Image One</h3>
             <p>Describe it in a lengthy paragraph here.</p>
           </div>
           <div class="col-sm-6">
-            <img src="http://placehold.it/320x320">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
             <h3>Image Two</h3>
             <p>Describe it in a lengthy paragraph here.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <img src="http://placehold.it/320x320">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
             <h3>Image Three</h3>
             <p>Describe it in a lengthy paragraph here.</p>
           </div>
           <div class="col-sm-6">
-            <img src="http://placehold.it/320x320">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
             <h3>Image Four</h3>
             <p>Describe it in a lengthy paragraph here.</p>
           </div>
         </div>
       </div>
     </section>
-    <hr>
-    <section id="page3">
+    <section class="text-center" id="page3">
       <div class="container-fluid">
         <div class="page-header">
           <h1>Page 3: This One Has Video</h1>
@@ -89,46 +87,61 @@
         </div>
       </div>
     </section>
-    <section id="page4">
+    <footer id="page4">
       <div class="container-fluid">
         <div class="page-header">
-          <h1>Call to action: Get more information!</h1>
+          <h1 class="text-center">Call to action: Get more information!</h1>
         </div>
         <div class="row">
-          <div class="col-sm-offset-1 col-sm-4">
-          <img src="http://placehold.it/320x320">
+          <div class="col-sm-4">
+            <img class= "img-responsive center-block" src="http://placehold.it/320x320">
           </div>
-          <div class="col-sm-6">
-            <p>Hello, I am a Log Camp student! I made this website about the product or idea I developed during Log Camp. Want to find out more? Use the contact form below to ask me for more information!</p>
+          <div class="col-sm-4">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">My Contact Form</h3>
               </div>
               <div class="panel-body">
                 <form>
-                  <label for="formname">Name:</label><input type="text" id="formname"><br>
-                  <label for="formemail">Email:</label><input type="email" id="formemail"><br>
-                  <label for="formselect">Pick a number:</label><select id="formselect"><br>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                  </select><br>
-                  <label for="formyes">Yes</label><input type="radio" name="yesorno" id="formyes" value="yes">
-                  <label for="formno">No</label><input type="radio" name="yesorno" id="formno" value="no"><br>
-                  <label for="formtext">Anything else?</label><br><textarea></textarea><br>
-                  <button type="reset">Reset Form</button>
-                  <button type="submit">Submit Form</button>
+                  <div class="form-group">
+                    <label for="formname">Name:</label>
+                    <input type="text" class="form-control" id="formname">
+                  </div>
+                  <div class="form-group">
+                    <label for="formemail">Email:</label>
+                    <input type="email" class="form-control" id="formemail">
+                  </div>
+                  <div class="form-group">
+                    <label for="formselect">Pick a number:</label>
+                    <select class="form-control" id="formselect">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <p class="help-block">Anything else to add?</p>
+                    <textarea class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Submit Form</button>
+                    <button class="btn btn-danger" type="reset">Reset Form</button>
+                  </div>
                 </form>
               </div>
             </div>
           </div>
+          <div class="col-sm-4 list-group">
+            <a href="#home" class="list-group-item">Home</a>
+            <a href="#page2" class="list-group-item">Gallery</a>
+            <a href="#page3" class="list-group-item">Video</a>
+            <a href="#page4" class="list-group-item">Contact</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container-fluid">
-        <p>&copy; 2015 Your Name</p>
+        <div class="footer">
+          <p>&copy; 2015 Your Name</p>
+        </div>
       </div>
     </footer>
     <script src="js/jquery-1.11.3.min.js"></script>
