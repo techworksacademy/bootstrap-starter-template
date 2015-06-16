@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Awesome Website</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">My Awesome Website</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#page2">Gallery</a></li>
+            <li><a href="#page3">Video</a></li>
+            <li><a href="#page4">Contact</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <button class="btn btn-default">Call to ACTION</button>
+          </form> 
+        </div>
+      </div>
+    </nav>
+    <header class="text-center" id="home">
+      <div class="container-fluid">
+        <div class="page-header"><h1>Insert the name of your website</h1></div>
+        <p>Write your first paragraph about your website.</p>
+        <p>Write your second paragraph about your website.</p>
+        <button class="btn btn-default">Button 1</button>
+        <button class="btn btn-default">Button 2</button>
+      </div>
+    </header>
+    <section class="text-center" id="page2">
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1>Page 2 Title</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
+            <h3>Image One</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
+          <div class="col-sm-6">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
+            <h3>Image Two</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
+            <h3>Image Three</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
+          <div class="col-sm-6">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
+            <h3>Image Four</h3>
+            <p>Describe it in a lengthy paragraph here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center" id="page3">
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1>Page 3: This One Has Video</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-offset-1 col-sm-10">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qdbrIrFxas0"></iframe>
+            </div>
+            <p>Describe the video here. What's it about? Does it demonstrate your product or idea? Did you make the video yourself?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="page4">
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1 class="text-center">Call to action: Get more information!</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="img-responsive center-block" src="http://placehold.it/320x320">
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">My Contact Form</h3>
+              </div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <label for="formname">Name:</label>
+                    <input type="text" class="form-control" id="formname">
+                  </div>
+                  <div class="form-group">
+                    <label for="formemail">Email:</label>
+                    <input type="email" class="form-control" id="formemail">
+                  </div>
+                  <div class="form-group">
+                    <label for="formselect">Pick a number:</label>
+                    <select class="form-control" id="formselect">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <p class="help-block">Anything else to add?</p>
+                    <textarea class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Submit Form</button>
+                    <button class="btn btn-danger" type="reset">Reset Form</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 list-group">
+            <a href="#home" class="list-group-item">Home</a>
+            <a href="#page2" class="list-group-item">Gallery</a>
+            <a href="#page3" class="list-group-item">Video</a>
+            <a href="#page4" class="list-group-item">Contact</a>
+          </div>
+        </div>
+        <div class="footer">
+          <p>&copy; 2015 Your Name</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

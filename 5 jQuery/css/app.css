@@ -1,0 +1,40 @@
+body {
+  background: url(../img/seamless_paper_texture.png) center center;
+  font-family: 'Neuton', serif;
+}
+
+header, section, footer {
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-image: url(http://merrittlawrenson.com/img/1.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  padding: 250px 0px 250px 0px;
+}
+
+#page3 {
+  color: white;
+  background: url(http://merrittlawrenson.com/img/3.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#page4 {
+  background: url(../img/seamless_paper_texture.png) center center; 
+}
+
+.footer {
+  padding-top: 16px;
+}

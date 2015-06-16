@@ -1,9 +1,14 @@
 body {
   background: url(../img/seamless_paper_texture.png) center center;
+  font-family: 'Neuton', serif;
 }
 
 header, section, footer {
   padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
